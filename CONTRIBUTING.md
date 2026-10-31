@@ -1,6 +1,6 @@
 # Contribuir / Contributing
 
-Gracias por tu interés. Este proyecto aún está en fase experimental y la licencia está pendiente de decisión.
+Gracias por tu interés. Este proyecto aún está en fase experimental y el código fuente propio está bajo la licencia MIT; consulta LICENSE.
 
 - Reporta fallos con versiones de macOS, Xcode, Python y Ollama, **sin incluir información privada**.
 - Para propuestas de cambios, abre primero un issue y explica problema, solución y pruebas previstas.

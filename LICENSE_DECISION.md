@@ -1,17 +1,11 @@
-# License decision required / Falta decidir la licencia
+# Decisión de licencia
 
-**Publicar un repositorio no significa automáticamente convertirlo en software libre.**
+La licencia elegida en 2026 para el código fuente propio de Big Asere AI es MIT.
 
-Antes de hacer público este repositorio, el propietario debe seleccionar una licencia y añadir el archivo `LICENSE` correspondiente.
+El texto legal correspondiente está en LICENSE.
 
-Opciones frecuentes para discutir:
-- **MIT**: simple y permisiva; permite uso, modificación y redistribución con aviso de derechos de autor.
-- **Apache-2.0**: permisiva, con términos de patentes.
-- **GPL-3.0**: copyleft; las redistribuciones derivadas deben mantener términos aplicables.
-- **Sin licencia**: se conservan los derechos predeterminados; otras personas pueden ver el código público, pero no reciben un permiso general para copiarlo o redistribuirlo.
+MIT permite usar, modificar, distribuir y comercializar el software, conservando los avisos de copyright y licencia requeridos.
 
-Información: https://choosealicense.com/ y https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+La licencia no concede automáticamente derechos sobre marcas, logotipos, modelos de IA o recursos de terceros.
 
-El nombre y logotipo Big Asere AI pueden requerir condiciones independientes de marca. No se presupone licencia para marcas.
-
-**Este borrador no añade una licencia automáticamente ni autoriza la publicación.**
+Esta decisión no autoriza por sí sola cambiar el repositorio a público. La publicación requiere revisión final y autorización expresa.

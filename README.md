@@ -2,7 +2,7 @@
 
 [Leer en español](#español) · [Read in English](#english)
 
-> **Public review candidate · v2.2.1.** This is the **source code** of a prototype, **not** a signed or notarized macOS installer. First review the security notes, choose a software license, and test the project on macOS before announcing a public release.
+> **Public review candidate · v2.2.1.** This is the **source code** of a prototype, **not** a signed or notarized macOS installer. First review the security notes, consult the MIT license, and test the project on macOS before announcing a public release.
 
 ![Interfaz principal](VISTA_PREVIA/ui_home_v2.png)
 
@@ -57,7 +57,7 @@ El historial y configuración se guardan en `~/Library/Application Support/Big A
 
 ### Contribución, licencia y publicación
 
-Antes de publicar este borrador, el propietario debe **elegir y aprobar la licencia**. Consulta [`LICENSE_DECISION.md`](LICENSE_DECISION.md). Sin licencia explícita, la presencia en GitHub **no implica permiso de reutilización libre**.
+El código fuente propio utiliza la **licencia MIT**, incluida en LICENSE. Consulta [`LICENSE_DECISION.md`](LICENSE_DECISION.md). La licencia no concede derechos automáticos sobre marcas o recursos de terceros.
 
 No publiques binarios precompilados como «instalador seguro». Para distribución general es recomendable firmar y notarizar con Apple. Para desarrollo local, compila desde la fuente con Xcode.
 

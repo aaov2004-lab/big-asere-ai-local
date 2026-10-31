@@ -3,7 +3,7 @@
 ## Antes de publicar
 - Este paquete contiene SOLO el código del asistente local. No lo mezcles con otros repositorios ni agregues conversaciones personales.
 - La compilación con Xcode 26.2 y una respuesta real de Ollama se comprobaron en un Mac; las otras herramientas necesitan más validación manual.
-- Decide y autoriza una licencia antes de hacer público el código. Ver `LICENSE_DECISION.md`.
+- La licencia MIT ya está elegida. La publicación pública requiere una revisión final de seguridad y autorización expresa. Ver `LICENSE_DECISION.md`.
 - Mantén el repositorio privado durante la revisión inicial.
 
 ## Método visual con GitHub Desktop (sin Terminal)
