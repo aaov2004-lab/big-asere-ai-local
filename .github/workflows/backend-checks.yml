@@ -1,0 +1,23 @@
+name: Backend unit checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  python-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Validate backend syntax
+        run: python -m py_compile BigAsereAI/Resources/server.py
+      - name: Validate JavaScript syntax
+        run: node --check BigAsereAI/Resources/app.js
+      - name: Run backend tests with simulated Ollama
+        run: python -m pytest -q tests/test_local_server.py tests/test_hardening.py
+# macOS application compilation and UI tests are not part of this workflow.

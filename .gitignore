@@ -1,0 +1,51 @@
+# macOS / Xcode
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+build/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.ipa
+*.xip
+*.mobileprovision
+
+# Runtime state, private chats, Ollama data (never add these files)
+state.json
+state.*.tmp
+chats.json
+conversations.json
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.session
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+
+# Python / Tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+playwright-report/
+test-results/
+.coverage
+
+# Local personal config
+local-config.json
+user-data/
